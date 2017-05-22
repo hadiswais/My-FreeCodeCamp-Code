@@ -1,0 +1,69 @@
+
+ @import url('https://fonts.googleapis.com/css?family=Chewy');
+ /*Body*/
+body{
+    background-color: #333;
+}
+
+ /*Quote*/
+.quote-body{
+font-family: 'Chewy', cursive;
+}
+
+.quote-left{
+    font-size: 70px;
+    font-weight: 700;   
+}
+
+.quote-text{
+    margin: 1% ;
+    padding: 40px 50px;
+    font-size: 50px;
+    color: #fff;
+}
+
+.quote-author{
+    color: #fff;
+    margin-top: -8%;
+    padding: 40px 50px;
+    text-align: right;
+    font-size: 18px;
+}
+
+ /*tweetr share and button*/
+.right{
+    padding: 40px 50px;
+    margin-top: -4%;
+    text-align: right;
+}
+.share i{
+    margin: 0 25px  10px 0 ;
+    padding-top: 7px;
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.button{
+    height: 35px;
+    width: 50px;
+    margin-right: 10px;
+    border-radius: 3px;
+    outline: none;
+    opacity: 1;
+    border: none;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+}
+.button:hover{
+    opacity: 0.8;
+}
+
+ /*Footer*/
+.footer{
+    color: #fff;
+    margin:15px auto 30px auto;
+    text-align: center;
+}

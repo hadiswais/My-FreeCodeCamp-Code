@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Random Quote</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="res/css/style.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!--quote and Author-->
+    <div class="quote-body">
+        <div class="quote-text">
+            <i class="quote-left">&#8221;</i>
+            <span id="text"></span>
+        </div>
+        <div class="quote-author">
+            <br> -- <span id="author"></span>
+        </div>
+    </div>
+
+    <!--share and more quote-->
+    <div class="right">
+        <div class="share">
+            <a target="_blank" title="Tweet this quote!" id="tweet"> <i class="fa fa-twitter" aria-hidden="true"></i></a>
+        </div>
+        <button class="button" id="more">More</button>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <p>© Hadi Swais, 2017</p>
+    </div>
+
+    <!--Script-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript" src="http://code.jquery.com/color/jquery.color-2.1.2.js"></script>
+    <script src="res/js/app.js"></script>
+</body>
+
+</html>
