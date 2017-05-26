@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Questrial');
+
+/*Body*/
+body{
+    background-color: #222930;
+    font-family: 'Questrial', sans-serif;
+}
+
+/*Header*/
+.header {
+    font-size: 26px;
+    color: #E9E9E9;
+    text-align: center;
+    margin-top: 2em;
+}
+
+/*Search-Box*/
+.box{
+    text-align: center;
+    height: 150px;
+    width: 50%;
+    border-radius: 15px;
+    background-color: #1b2026;
+    margin: 80px auto;
+}
+
+.search-box{
+    display: inline-block;
+    margin-top: 40px;
+    padding: 0 20px;
+    height: 42px;
+    width: 40%;
+    box-sizing: border-box;
+    cursor: I-beam;
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+    text-decoration: normal;
+    text-overflow: ellipsis;
+    background-color: #4EB1BA;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, 0.5) inset;
+    -webkit-transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    transition: all 502ms cubic-bezier(0.68, -0.75, 0.265, 1.75);   
+    color: #E9E9E9;
+    font-size: 120%;
+    
+}
+
+.search-box:hover{
+    width: 55%;
+    opacity: 0.82;
+    color: #E9E9E9;
+    background: #4EB1BA ;
+    -webkit-transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    transition: all 500ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.search-box:focus{
+    width: 80%;
+    cursor: default;
+    padding: -13px 20px 0;
+    color: #E9E9E9;
+    background: #4EB1BA;
+    -webkit-transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+    transition: all 601ms cubic-bezier(0.68, -0.75, 0.265, 1.75);
+}
+
+.random a{
+    text-decoration: none;
+    color: #E9E9E9;
+}
+
+.random a:hover{
+    opacity: 0.83;
+}
+/*End Search-Box*/
+
+/*Search result*/
+.result a{
+    text-decoration: none;
+    cursor: pointer;    
+}
+
+.result li:hover{
+    border-left: solid 8px #4EB1BA;
+     
+}
+
+
+.result li {
+    list-style: none;
+    height: auto;
+    background-color: #dadee5;
+    color: black;
+}
+.result h1 {
+   font-size: 20px;
+   padding-top: 20px;
+   font-weight: 700;
+   margin-left: 20px;
+   
+}
+
+.result p{
+    margin-top: 20px;
+    margin-left: 30px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    word-wrap: break-word;
+    font-size: 110%;
+}
+
+ /*Footer*/
+.footer{
+    color: #E9E9E9;
+    margin:15px auto 30px auto;
+    text-align: center;
+}
