@@ -1,0 +1,53 @@
+ /*Body*/
+body{
+    background-color: #252839;
+    font-size: 14px;
+}
+
+ /*Header*/
+.header{
+  background-color: #677077;
+}
+
+.header h1{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: beige;
+}
+
+ /*Row in the container*/
+.row {
+  margin: 1px 0px;
+  padding: 5px 0;
+}
+
+ /*highlight offline channel*/
+.offline {
+  background-color: #b5b5b7;
+}
+
+ /*highlight online channel*/
+.online {
+  background-color: #f2b632;
+}
+
+ /*the logo for channel*/
+.img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 3px solid #677077;
+}
+
+ /*when hover on channel name*/
+a:hover{
+  text-decoration: none;
+  font-weight: 700;
+}
+
+ /*Footer*/
+.footer{
+    color: #E9E9E9;
+    margin:15px auto 30px auto;
+    text-align: center;
+}
